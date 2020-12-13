@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run:chrome": "cypress run --headless --browser chrome",
+    "test:ci:chrome": "npm run cypress:run:chrome"
+  },
+  "devDependencies": {
+    "cypress": "^6.1.0",
+    "cypress-image-snapshot": "^4.0.0"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "^0.28.2"
+  }
+}
